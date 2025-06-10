@@ -91,3 +91,6 @@ header{
     justify-content: center;
     margin: 0px;
 }
+main{
+    background-color: inherit;
+}
