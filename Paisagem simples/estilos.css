@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(69, 69, 255), rgb(0, 0, 255));
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* altura minima */
+}
+.sol{
+    width: 130px;
+    height: 120px;
+    background-color: yellow;
+    border-bottom-right-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h1{
+    background-color: rgb(5, 97, 5);
+    color: white;
+    font-family: 'Century Gothic';
+    border: 3px solid white;
+    border-radius: 5px;
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100px;
+}
+.semaforo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.caixa{
+    width: 80px;
+    height: 150px;
+    background-color: black;
+    border: 7px solid rgb(27, 27, 27);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.verde{
+    display: flex;
+    align-self: center;
+    background-color: rgb(0, 203, 30);
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    border: 3px solid rgb(83, 82, 82);
+    box-shadow: 0 0 8px rgb(0, 115, 0);
+}
+.amarelo{
+    display: flex;
+    align-self: center;
+    background-color: rgb(242, 255, 0);
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    border: 3px solid rgb(83, 82, 82);
+    box-shadow: 0 0 8px yellow;
+}
+.vermelho{
+    display: flex;
+    align-self: center;
+    background-color: rgb(255, 25, 0);
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    border: 3px solid rgb(83, 82, 82);
+    box-shadow: 0 0 8px red;
+    
+}
+.poste{
+    background-color: black;
+    border: 7px solid rgb(27, 27, 27);
+    width: 35px;
+    height: 300px;
+    border-top: none;
+}
+footer{
+    background-color: rgb(12, 9, 9);
+    width: 100%;
+    height: 227px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+}
+footer .tracejado{
+    width: 30px;
+    height: 9px;
+    background-color: white;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
